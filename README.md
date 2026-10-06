@@ -10,7 +10,9 @@
 ## 디렉터리
 
 ```text
-codetree/                  코드트리 Trail 1. 개념 노트와 문제 풀이
+codetree/
+  trail1_notes/            코드트리 Trail 1. 챕터별 개념 노트
+  trail1/                  같은 범위의 문제 풀이
 this_is_coding_test/       책 예제를 문제, 느낀 점, 코드로 기록
 archive/                   더 이상 갱신하지 않는 예전 풀이
 ```
@@ -19,16 +21,20 @@ archive/                   더 이상 갱신하지 않는 예전 풀이
 
 문제를 풀다가 몰랐던 내용을 챕터별로 모아 두었습니다. 각 항목은 핵심 요약, 예시 코드, 주의할 점 순서입니다.
 
-- [Ch1. 출력](codetree/ch1_출력/ch1_출력_개념정리.md)
-- [Ch2. 입출력](codetree/ch2_입출력/ch2_입출력_개념정리.md)
-- [Ch3. 연산자](codetree/ch3_연산자/ch3_연산자_개념정리.md)
-- [Ch4. 조건문](codetree/ch4_조건문/ch4_조건문_개념정리.md)
-- [Ch5. 단순 반복문](codetree/ch5_단순반복문/ch5_단순반복문_개념정리.md)
+- [Ch1. 출력](codetree/trail1_notes/ch1_출력.md)
+- [Ch2. 입출력](codetree/trail1_notes/ch2_입출력.md)
+- [Ch3. 연산자](codetree/trail1_notes/ch3_연산자.md)
+- [Ch4. 조건문](codetree/trail1_notes/ch4_조건문.md)
+- [Ch5. 단순 반복문](codetree/trail1_notes/ch5_단순반복문.md)
+- [Ch6. 이중 반복문](codetree/trail1_notes/ch6_이중반복문.md)
+- [Ch7. 1차원 배열](codetree/trail1_notes/ch7_1차원배열.md)
+- [Ch8. 2차원 배열](codetree/trail1_notes/ch8_2차원배열.md)
+- [Ch9. 문자열](codetree/trail1_notes/ch9_문자열.md)
 
 같은 범위의 문제 풀이는 [codetree/trail1](codetree/trail1)에 있습니다. 문제마다 파이썬 파일과, 코드트리 문제 링크가 있는 README를 둡니다.
 
 ## 진행 현황
 
-- 개념 노트 5장 (출력부터 단순 반복문까지)
-- Trail 1 풀이 폴더 77개. 파이썬 파일 73개, 나머지 4개는 출력 결과만 확인하는 문제
+- 개념 노트 9장 (출력부터 문자열까지)
+- Trail 1 풀이 폴더 265개
 - 책 3장 그리디 예제를 기록하는 중
