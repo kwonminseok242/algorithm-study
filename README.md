@@ -14,6 +14,18 @@ codetree/
   trail1_notes/            코드트리 Trail 1. 챕터별 개념 노트
   trail1/                  같은 범위의 문제 풀이
 this_is_coding_test/       책 예제를 문제, 느낀 점, 코드로 기록
+company_coding_test/       기업 코딩테스트
+  KOSCOM/                  코스콤
+    기업 코테 유형 분석.md  기출·유사 문제와 복기 메모
+sql/
+  SQL_문법.md              MySQL 조회 문법 정리
+  programmers/             프로그래머스 SQL 고득점 Kit
+    select/                SELECT
+    sum_max_min/           SUM, MAX, MIN
+    group_by/              GROUP BY
+    is_null/               IS NULL
+    join/                  JOIN
+    string_date/           String, Date
 archive/                   더 이상 갱신하지 않는 예전 풀이
 ```
 
