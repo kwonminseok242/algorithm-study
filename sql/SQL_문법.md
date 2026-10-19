@@ -726,6 +726,8 @@ ORDER BY ID;
 | 한글 `LENGTH`가 글자 수의 3배 | 글자 수는 `CHAR_LENGTH` |
 | 나눗셈 결과가 기대보다 큼 | 비율은 곱하기를 먼저 하거나 `ROUND`로 자릿수를 고정 |
 | 자식 없는 노드가 사라짐 | `LEFT JOIN` 후 `COUNT(자식.키)` |
+| `= (서브쿼리)`에서 "Subquery returns more than 1 row" | 서브쿼리에 불필요한 `GROUP BY`가 있는지. 전체 최댓값은 `GROUP BY` 없이 `MAX()` |
+| `Column ... is ambiguous` | 조인한 두 테이블에 같은 이름의 열이 있음. `F.FISH_TYPE`처럼 테이블 별칭을 붙인다 |
 | 결과 헤더가 `AVG(열)`처럼 나와서 틀림 | 문제가 컬럼명을 정해주면 `AS 컬럼명` |
 | 평균이 소수로 길게 나옴 | 소수 첫째 자리에서 반올림은 `ROUND(값, 0)` |
 | 서브쿼리를 `=`로 비교했더니 `more than 1 row` | 여러 행이 나오면 `IN`, 값 하나일 때만 `=` |
