@@ -1,5 +1,5 @@
 -- 물고기 종류 별 대어 찾기 (Lv3)
--- 결과: 오답 → 수정
+-- 결과: 10/19 오답 → 수정 / 10/20 재풀이 (윈도우 함수)
 
 -- 내 풀이 (오답)
 -- SELECT ID, FISH_NAME , MAX(LENGTH)
@@ -16,6 +16,25 @@ WHERE (F.FISH_TYPE, F.LENGTH) IN (SELECT FISH_TYPE, MAX(LENGTH)
                                   FROM FISH_INFO
                                   GROUP BY FISH_TYPE)
 ORDER BY F.ID;
+
+-- 내 풀이 (10/20 재풀이 · RANK)
+-- SELECT A.ID, A.FISH_NAME, A.LENGTH
+-- FROM (SELECT T.ID, T.FISH_NAME, T.LENGTH,T.TIME,T.FISH_TYPE,RANK() OVER(PARTITION BY T.FISH_TYPE ORDER BY T.LENGTH DESC) AS RNK
+--     FROM (SELECT FI.ID, FI.FISH_TYPE, FI.LENGTH, FI.TIME, FNI.FISH_NAME
+--         FROM FISH_INFO AS FI
+--         INNER JOIN FISH_NAME_INFO AS FNI
+--         ON FI.FISH_TYPE = FNI.FISH_TYPE) AS T) AS A
+-- WHERE A.RNK = 1
+-- ORDER BY A.ID
+
+-- 같은 풀이를 한 겹 줄이면
+SELECT ID, FISH_NAME, LENGTH
+FROM (SELECT FI.ID, FNI.FISH_NAME, FI.LENGTH,
+             RANK() OVER (PARTITION BY FI.FISH_TYPE ORDER BY FI.LENGTH DESC) AS RNK
+      FROM FISH_INFO AS FI
+      JOIN FISH_NAME_INFO AS FNI ON FI.FISH_TYPE = FNI.FISH_TYPE) AS A
+WHERE RNK = 1
+ORDER BY ID;
 
 -- 메모
 -- 틀린 이유:
@@ -49,3 +68,25 @@ ORDER BY F.ID;
 --   "그룹별 최댓값을 가진 행"은 GROUP BY 한 번으로 안 된다. 최댓값을 구하고 원본과 다시 맞춘다.
 --   GROUP BY 쿼리의 SELECT에는 GROUP BY 열 아니면 집계함수만 적는다.
 --   LENGTH가 NULL(10cm 이하)인 행은 MAX가 무시하고, IN 비교에서도 걸리지 않는다.
+--
+-- 10/20 재풀이 — 어제와 비교:
+--   어제: GROUP BY FISH_TYPE + MAX(LENGTH)에 ID를 같이 적었다.
+--         그룹이 1행으로 줄어드니 ID가 최댓값 물고기의 것이라는 보장이 없었다.
+--   오늘: RANK() OVER (PARTITION BY FISH_TYPE ORDER BY LENGTH DESC)
+--         윈도우 함수는 행을 줄이지 않는다. 모든 물고기 행이 그대로 남고 "종류 안에서 몇 등"만 붙는다.
+--         그래서 RNK = 1인 행의 ID, 이름, 길이가 한 행에서 짝이 맞는다. 어제 틀린 원인을 정확히 피했다.
+--   어제 나온 문법 실수(파생 테이블 별칭 없음, ambiguous, LENGHT 오타)도 오늘은 하나도 없다.
+--     AS T, AS A 별칭을 붙였고 열마다 FI. / FNI. / T.를 붙였다.
+--   다듬을 점:
+--     - 서브쿼리 T는 없어도 된다. 조인한 FROM 절에서 바로 RANK()를 쓸 수 있다(위 "한 겹 줄이면").
+--       윈도우 함수를 WHERE에 바로 못 쓰니 바깥 한 겹(A)은 필요하다.
+--     - TIME, FISH_TYPE은 바깥에서 안 쓰니 안쪽 SELECT에서 빼도 된다.
+--   RANK vs ROW_NUMBER:
+--     RANK는 공동 1등이 있으면 둘 다 1. ROW_NUMBER는 하나만 1.
+--     "그룹별 최댓값을 가진 행을 전부" 내라는 문제라면 RANK(또는 IN 방식)가 맞다.
+--     이 문제는 종류별 최댓값이 1마리뿐이라 둘 다 통과한다.
+--   LENGTH가 NULL(10cm 이하)이면 MySQL은 DESC 정렬에서 NULL을 맨 뒤로 보내니 1등이 되지 않는다.
+--   세 가지 풀이 정리 (전부 "그룹별 최댓값 행" = 마라톤 기출 유형):
+--     ① (FISH_TYPE, LENGTH) IN (SELECT FISH_TYPE, MAX(LENGTH) ... GROUP BY FISH_TYPE)
+--     ② 최댓값 파생 테이블과 JOIN ... ON 종류 AND 길이   ← 그룹 키를 조인 조건에 전부
+--     ③ RANK() / ROW_NUMBER() OVER (PARTITION BY 그룹 ORDER BY 값 DESC) 후 바깥에서 = 1
