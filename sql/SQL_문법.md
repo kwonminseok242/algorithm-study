@@ -745,6 +745,7 @@ ORDER BY ID;
 | 결과에 `NULL` 그룹이 끼어 있음 | `GROUP BY`는 NULL도 묶는다. `WHERE 열 IS NOT NULL` |
 | 서브쿼리 안에 `ORDER BY`를 넣었는데 순서가 안 맞음 | 정렬은 맨 바깥 쿼리 끝에 |
 | `WHERE CNT = MAX(CNT)`에서 "Invalid use of group function" | `WHERE`에는 집계함수 불가. 최댓값은 `= (SELECT MAX(...) FROM ...)` 서브쿼리로 |
+| 조인 후 `SUM`이 2~3배로 부풀려짐 | 1:N 조인이라 1쪽 값이 복제됨. N쪽을 `GROUP BY`로 먼저 1행으로 줄이고 조인, 또는 `UNION ALL` + `GROUP BY` |
 
 비율은 소수 자릿수를 `ROUND`로 고정한다.
 
