@@ -746,6 +746,8 @@ ORDER BY ID;
 | 서브쿼리 안에 `ORDER BY`를 넣었는데 순서가 안 맞음 | 정렬은 맨 바깥 쿼리 끝에 |
 | `WHERE CNT = MAX(CNT)`에서 "Invalid use of group function" | `WHERE`에는 집계함수 불가. 최댓값은 `= (SELECT MAX(...) FROM ...)` 서브쿼리로 |
 | 조인 후 `SUM`이 2~3배로 부풀려짐 | 1:N 조인이라 1쪽 값이 복제됨. N쪽을 `GROUP BY`로 먼저 1행으로 줄이고 조인, 또는 `UNION ALL` + `GROUP BY` |
+| `START_DATE >= 2022-08`이 엉뚱하게 걸러짐 (에러 없음) | 따옴표 없는 날짜는 뺄셈(2014). `'2022-08-01'`처럼 따옴표 + 날짜 전체 |
+| "N회 이상인 대상의 월별 횟수"를 GROUP BY 하나로 풀다 막힘 | 묶는 단위가 둘. 대상은 `IN (… GROUP BY … HAVING)`, 바깥에서 월별 `GROUP BY` |
 
 비율은 소수 자릿수를 `ROUND`로 고정한다.
 
