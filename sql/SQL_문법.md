@@ -744,6 +744,7 @@ ORDER BY ID;
 | 오후 시간이 01~12로 나옴 | `%h`는 12시간제. 24시간제는 `%H` |
 | 결과에 `NULL` 그룹이 끼어 있음 | `GROUP BY`는 NULL도 묶는다. `WHERE 열 IS NOT NULL` |
 | 서브쿼리 안에 `ORDER BY`를 넣었는데 순서가 안 맞음 | 정렬은 맨 바깥 쿼리 끝에 |
+| `WHERE CNT = MAX(CNT)`에서 "Invalid use of group function" | `WHERE`에는 집계함수 불가. 최댓값은 `= (SELECT MAX(...) FROM ...)` 서브쿼리로 |
 
 비율은 소수 자릿수를 `ROUND`로 고정한다.
 
