@@ -21,3 +21,22 @@ print(cnt)
 
 
 
+def solution(skill, skill_trees):
+    answer = []
+    skills = list(skill)
+    for i in skill_trees:
+        ex = []
+        for s in i:
+            if s in skills:
+                ex.append(s)
+        answer.append(ex)
+    cnt = 0
+    for i in answer:
+        n = len(i)
+        check = 0
+        for j in range(len(i)):
+            if i[j] == skills[j]:
+                check +=1
+        if check == len(i):
+            cnt+=1
+    return cnt
