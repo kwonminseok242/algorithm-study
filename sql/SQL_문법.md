@@ -748,6 +748,9 @@ ORDER BY ID;
 | 조인 후 `SUM`이 2~3배로 부풀려짐 | 1:N 조인이라 1쪽 값이 복제됨. N쪽을 `GROUP BY`로 먼저 1행으로 줄이고 조인, 또는 `UNION ALL` + `GROUP BY` |
 | `START_DATE >= 2022-08`이 엉뚱하게 걸러짐 (에러 없음) | 따옴표 없는 날짜는 뺄셈(2014). `'2022-08-01'`처럼 따옴표 + 날짜 전체 |
 | "N회 이상인 대상의 월별 횟수"를 GROUP BY 하나로 풀다 막힘 | 묶는 단위가 둘. 대상은 `IN (… GROUP BY … HAVING)`, 바깥에서 월별 `GROUP BY` |
+| `IN (SELECT A, B …)`에서 "Operand should contain 1 column(s)" | `IN` 서브쿼리는 열 1개. 두 열이면 `(A, B) IN (SELECT A, B …)` |
+| `GROUP BY … WHERE …`에서 문법 에러 | 절 순서: `FROM → WHERE → GROUP BY → HAVING → ORDER BY → LIMIT` |
+| `RANK()`를 썼는데 1등만 안 걸러짐 | 순위는 서브쿼리에서 계산하고 바깥에서 `WHERE RNK = 1`. 최고점이면 `ORDER BY … DESC` |
 
 비율은 소수 자릿수를 `ROUND`로 고정한다.
 
