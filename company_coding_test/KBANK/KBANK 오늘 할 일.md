@@ -21,10 +21,10 @@
 
 경로: **Trail 5 → Ch1 중급 자료구조 → L1 HashMap** (마지막 1문제는 **L3 HashSet**)
 
-- [ ] `T5-C1-L1 hashmap 기본` — [링크](https://www.codetree.ai/trails/complete/curated-cards/intro-hashmap-basic)
-- [ ] `T5-C1-L1 가장 많은 데이터` — [링크](https://www.codetree.ai/trails/complete/curated-cards/intro-most-frequent-data)
-- [ ] `T5-C1-L1 대응되는 수와 문자` — [링크](https://www.codetree.ai/trails/complete/curated-cards/challenge-corresponding-numbers-and-characters)
-- [ ] `T5-C1-L3 서로 다른 수의 개수` — [링크](https://www.codetree.ai/trails/complete/curated-cards/challenge-distinct-numbers)  
+- [x] `T5-C1-L1 hashmap 기본` — [링크](https://www.codetree.ai/trails/complete/curated-cards/intro-hashmap-basic)  입력받는것과 for문의 구조를 몰라서 찾아보면서 작성함
+- [x] `T5-C1-L1 가장 많은 데이터` — [링크](https://www.codetree.ai/trails/complete/curated-cards/intro-most-frequent-data) 여기서는 어떻게 해쉬맵의 개수를 세는 지 몰라서 찾아보고 getOrDefault를 이용해서 할 수 있다는 것을 알아냈음) 보고함, 또한 반복문에서 python의 for i in value와 같이 for문을 자바에서 작성하는 방법을 터득함 (for (int cnt : map.value()){} 와 같이
+- [x] `T5-C1-L1 대응되는 수와 문자` — [링크](https://www.codetree.ai/trails/complete/curated-cards/challenge-corresponding-numbers-and-characters)   모르는 개념들이 또 많이 나옴 이제 어느정도 변수 선언이나 원시타입, 객체타입은 이해가 되었지만 파이썬에서 바로 배열 번호로 접근하는것과 다르게 자바에서는 Character.isDigit(c) 식으로 숫자글자인가 알파벳인가를 구분해서 가야한다는것을 알 수 있었음
+- [x] `T5-C1-L3 서로 다른 수의 개수` — [링크](https://www.codetree.ai/trails/complete/curated-cards/challenge-distinct-numbers)  set에 대해서 배웠고 length대신에 size사용 배움
 
 → Python 풀이 **닫고**. 15분 막히면 부록 A만 보고 덮고 다시.
 

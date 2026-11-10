@@ -26,3 +26,7 @@
 - [격자·시뮬레이션 오답노트](trail2_notes/ch5_격자시뮬레이션_오답노트.md) — 실수 유형별 정리
 
 [trail2](trail2)는 위 챕터의 문제 풀이입니다.
+
+## Java
+
+- [Java 개념 노트](Java/README.md) — Trail 순서대로 정리한 Java 문법·자료구조 노트
