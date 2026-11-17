@@ -15,7 +15,7 @@
 
 ## Trail 1. 프로그래밍 기초
 
-- [Ch1. 출력](trail1/ch1_출력.md) — 코드 기본 틀(`class Main`, `main`, `import`), 타입(`int`/`Integer`, `char`/`String`, `==`/`.equals()`)
+- [Ch1. 출력](trail1/ch1_출력.md) — 코드 기본 틀(`class Main`, `main`, `import`), 타입(`int`/`Integer`, `char`/`String`, `==`/`.equals()`), 이스케이프 문자, `printf` 형식 출력
 - [Ch2. 입출력](trail1/ch2_입출력.md) — `Scanner`, `nextInt()` / `next()` / `nextLine()`, 토큰·커서, `Integer.parseInt`
 - [Ch5. 단순 반복문](trail1/ch5_단순반복문.md) — 향상된 for문 `for (int x : arr)`, Python ↔ Java 대응표
 - [Ch7. 1차원 배열](trail1/ch7_1차원배열.md) — 배열 선언·생성 `new int[n]`, `static` / `final`, `Math.max`, 1-based `n + 1`, `length` vs `size()`
