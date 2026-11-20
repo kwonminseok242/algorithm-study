@@ -5,6 +5,26 @@
 
 - [ ] Trail 1 전체 완료
 
+## 진행률
+
+**전체** `██████░░░░░░░░░░░░░░` **44/147** (30%)
+
+<progress value="44" max="147"></progress>
+
+| Chapter | 진행 | 바 |
+|---|---:|:---|
+| Ch1. 출력 | 33/33 (100%) | `██████████` |
+| Ch2. 입출력 | 11/25 (44%) | `████░░░░░░` |
+| Ch3. 연산자 | 0/13 (0%) | `░░░░░░░░░░` |
+| Ch4. 조건문 | 0/47 (0%) | `░░░░░░░░░░` |
+| Ch5. 단순 반복문 | 0/29 (0%) | `░░░░░░░░░░` |
+| Ch6. 다중 반복문 | — | `··········` 문제명 미확보 |
+| Ch7. 1차원 배열 | — | `··········` 문제명 미확보 |
+| Ch8. 2차원 배열 | — | `··········` 문제명 미확보 |
+| Ch9. 문자열 | — | `··········` 문제명 미확보 |
+
+> 체크박스를 `[x]`로 바꾼 뒤 이 스크립트를 다시 실행하면 진행률이 갱신됩니다.
+
 ## Ch1. 출력
 
 - [ ] Ch1 완료
@@ -60,57 +80,57 @@
 
 ### L6. 다른 변수로부터 값 변경
 
-- [ ] 레슨 완료
+- [x] 레슨 완료
 
 - [x] [변수 값 교체하기 2](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-replacing-variable-values-2) · 기본 · Easy
-- [ ] [변수 값 교체하기 5](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-replacing-variable-values-5) · 연습 · Easy
-- [ ] [정수 복사](https://www.codetree.ai/ko/trails/complete/curated-cards/test-copy-integer) · 테스트 · Easy
+- [x] [변수 값 교체하기 5](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-replacing-variable-values-5) · 연습 · Easy
+- [x] [정수 복사](https://www.codetree.ai/ko/trails/complete/curated-cards/test-copy-integer) · 테스트 · Easy
 
 ### L7. 두 변수 값을 교환
 
-- [ ] 레슨 완료
+- [x] 레슨 완료
 
-- [ ] [변수 값 교체하기 3](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-replacing-variable-values-3) · 기본 · Easy
-- [ ] [변수 값 교체하기 6](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-replacing-variable-values-6) · 연습 · Easy
-- [ ] [데이터 교환](https://www.codetree.ai/ko/trails/complete/curated-cards/test-exchange-data) · 테스트 · Easy
+- [x] [변수 값 교체하기 3](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-replacing-variable-values-3) · 기본 · Easy
+- [x] [변수 값 교체하기 6](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-replacing-variable-values-6) · 연습 · Easy
+- [x] [데이터 교환](https://www.codetree.ai/ko/trails/complete/curated-cards/test-exchange-data) · 테스트 · Easy
 
 ### L8. 변수값 동시에 복사
 
-- [ ] 레슨 완료
+- [x] 레슨 완료
 
-- [ ] [변수 값 복사하기](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-copying-variable-values) · 기본 · Easy
-- [ ] [변수 값 복사하기 2](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-copying-variable-values-2) · 연습 · Easy
-- [ ] [합을 복사하기](https://www.codetree.ai/ko/trails/complete/curated-cards/test-copy-the-sum) · 테스트 · Easy
+- [x] [변수 값 복사하기](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-copying-variable-values) · 기본 · Easy
+- [x] [변수 값 복사하기 2](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-copying-variable-values-2) · 연습 · Easy
+- [x] [합을 복사하기](https://www.codetree.ai/ko/trails/complete/curated-cards/test-copy-the-sum) · 테스트 · Easy
 
 ## Ch2. 입출력
 
-- [ ] Ch2 완료
+- [x] Ch2 완료
 
 ### L1. 정수 입력
 
-- [ ] 레슨 완료
+- [x] 레슨 완료
 
-- [ ] [입력받아 계산](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-input-calculate) · 기본 · Easy
-- [ ] [점수 입출력](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-enter-int-and-print-score) · 연습 · Easy
-- [ ] [입력받아 계산 4](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-input-calculate-4) · 연습 · Easy
-- [ ] [정수 입력받아 계산](https://www.codetree.ai/ko/trails/complete/curated-cards/test-calculation-by-inputting-an-integer) · 테스트 · Easy
+- [x] [입력받아 계산](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-input-calculate) · 기본 · Easy
+- [x] [점수 입출력](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-enter-int-and-print-score) · 연습 · Easy
+- [x] [입력받아 계산 4](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-input-calculate-4) · 연습 · Easy
+- [x] [정수 입력받아 계산](https://www.codetree.ai/ko/trails/complete/curated-cards/test-calculation-by-inputting-an-integer) · 테스트 · Easy
 
 ### L2. 실수 입력
 
-- [ ] 레슨 완료
+- [x] 레슨 완료
 
-- [ ] [실수 받아 그대로 출력](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-enter-real-value-and-print) · 기본 · Easy
-- [ ] [길이 단위 환산하기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-convert-length-units) · 연습 · Easy
-- [ ] [실수 입력받아 계산 2](https://www.codetree.ai/ko/trails/complete/curated-cards/test-calculation-by-inputting-a-real-number-2) · 테스트 · Easy
+- [x] [실수 받아 그대로 출력](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-enter-real-value-and-print) · 기본 · Easy
+- [x] [길이 단위 환산하기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-convert-length-units) · 연습 · Easy
+- [x] [실수 입력받아 계산 2](https://www.codetree.ai/ko/trails/complete/curated-cards/test-calculation-by-inputting-a-real-number-2) · 테스트 · Easy
 
 ### L3. 공백을 사이에 두고 입력
 
-- [ ] 레슨 완료
+- [x] 레슨 완료
 
-- [ ] [입력받아 계산 2](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-input-calculate-2) · 기본 · Easy
-- [ ] [입력받아 계산 5](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-input-calculate-5) · 연습 · Easy
-- [ ] [입력받은 값 교체하기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-changing-inputs) · 연습 · Easy
-- [ ] [입력받은 값과 합 출력](https://www.codetree.ai/ko/trails/complete/curated-cards/test-output-of-value-and-sum) · 테스트 · Easy
+- [x] [입력받아 계산 2](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-input-calculate-2) · 기본 · Easy
+- [x] [입력받아 계산 5](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-input-calculate-5) · 연습 · Easy
+- [x] [입력받은 값 교체하기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-changing-inputs) · 연습 · Easy
+- [x] [입력받은 값과 합 출력](https://www.codetree.ai/ko/trails/complete/curated-cards/test-output-of-value-and-sum) · 테스트 · Easy
 
 ### L4. 2개의 줄에 걸쳐 입력
 
