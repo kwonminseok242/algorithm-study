@@ -1,10 +1,43 @@
 # algorithm-study
 
-코딩테스트를 준비하면서, 문제를 풀다 막힌 개념과 풀이 코드를 남겨 두는 저장소입니다.
+코딩테스트를 준비하면서, 막힌 개념과 풀이 코드를 남겨 두는 저장소입니다.
 
-## 다짐
+## 성장
 
-지금은 기본 문법도 헷갈립니다. 취업을 하고 싶고, 실력 있는 개발자로 성장하고 싶습니다. 꾸준히 노력해서 좋은 코드를 짜는 사람이 되려하고, 그 과정을 여기에 담으려 합니다.
+처음엔 `print`와 입출력부터 헤맸습니다.  
+지금은 **Python Trail 1을 끝까지** 밀었고, 함수·정렬·격자 시뮬레이션까지 손으로 다시 짜 보며 **Trail 2**를 밟고 있습니다.  
+같은 길을 **Java**로도 따라가며 문법을 몸에 익히는 중입니다.
+
+아직 갈 길은 멉니다. 다만 막히면 노트에 남기고, 다음날 블라인드로 확인하는 습관이 생겼습니다.  
+취업과 “실력 있는 개발자”는 목표가 아니라, 이 기록이 쌓인 결과로 만들려 합니다.
+
+## 진행률
+
+> Java Trail 1 수치는 [체크리스트](codetree/java/meta/Java_Trail1_체크리스트.md)와 동일합니다.  
+> Python Trail 2는 저장소 기준(풀이 폴더·개념 노트)으로 추정했습니다.
+
+**Python · Trail 1** `████████████████████` **완료** (100%)  
+개념 노트 9/9 · 풀이 298문제
+
+<progress value="100" max="100"></progress>
+
+**Python · Trail 2** `██████░░░░░░░░░░░░░░` **진행 중** (~30%)  
+풀이 53문제 · 개념 노트 Ch1·Ch3·Ch5 (전체 10챕터 중)
+
+<progress value="30" max="100"></progress>
+
+**Java · Trail 1** `███████░░░░░░░░░░░░░` **53/147** (36%)  
+[체크리스트](codetree/java/meta/Java_Trail1_체크리스트.md) 기준 · Ch1 완료 · Ch2 진행
+
+<progress value="53" max="147"></progress>
+
+| 트랙 | 상태 | 비고 |
+|---|---|---|
+| Python Trail 1 | 완료 | novice Low |
+| Python Trail 2 | 진행 중 | novice Mid · 함수·정렬·시뮬레이션 중심 |
+| Python Trail 3~5 | 맛보기 | 풀이 일부만 |
+| Java Trail 1 | 진행 중 | 53/147 |
+| SQL · 프로그래머스 | 병행 | `sql/`, `프로그래머스/` |
 
 ## 디렉터리
 
@@ -38,8 +71,4 @@ assets/                    README 이미지
 
 - 노트·풀이: [codetree/java](codetree/java) · 운영 문서: [meta](codetree/java/meta)
 - Trail 1 개념: [trail1_notes](codetree/java/trail1_notes) · 풀이: [trail1](codetree/java/trail1)
-
-## 진행 현황
-
-- Python Trail 1 개념 노트 9장 — 완료
-- Python / Java 풀이를 `codetree/python`, `codetree/java`로 분리
+- 진행률 원본: [Java_Trail1_체크리스트.md](codetree/java/meta/Java_Trail1_체크리스트.md)
