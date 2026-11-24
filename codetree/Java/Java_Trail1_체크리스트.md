@@ -7,14 +7,14 @@
 
 ## 진행률
 
-**전체** `██████░░░░░░░░░░░░░░` **44/147** (30%)
+**전체** `███████░░░░░░░░░░░░░` **53/147** (36%)
 
-<progress value="44" max="147"></progress>
+<progress value="53" max="147"></progress>
 
 | Chapter | 진행 | 바 |
 |---|---:|:---|
 | Ch1. 출력 | 33/33 (100%) | `██████████` |
-| Ch2. 입출력 | 11/25 (44%) | `████░░░░░░` |
+| Ch2. 입출력 | 20/25 (80%) | `████████░░` |
 | Ch3. 연산자 | 0/13 (0%) | `░░░░░░░░░░` |
 | Ch4. 조건문 | 0/47 (0%) | `░░░░░░░░░░` |
 | Ch5. 단순 반복문 | 0/29 (0%) | `░░░░░░░░░░` |
@@ -134,22 +134,22 @@
 
 ### L4. 2개의 줄에 걸쳐 입력
 
-- [ ] 레슨 완료
+- [x] 레슨 완료
 
-- [ ] [입력받아 계산 3](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-input-calculate-3) · 기본 · Easy
-- [ ] [입력받아 출력](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-input-and-output) · 연습 · Easy
-- [ ] [실수 입력받아 계산](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-calculation-by-inputting-a-real-number) · 연습 · Easy
-- [ ] [세 실수의 반올림](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-rounding-of-three-actual-numbers) · 연습 · Easy
-- [ ] [정수 세 개 입력받아 출력](https://www.codetree.ai/ko/trails/complete/curated-cards/test-take-three-integers-and-output) · 테스트 · Easy
+- [x] [입력받아 계산 3](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-input-calculate-3) · 기본 · Easy
+- [x] [입력받아 출력](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-input-and-output) · 연습 · Easy
+- [x] [실수 입력받아 계산](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-calculation-by-inputting-a-real-number) · 연습 · Easy
+- [x] [세 실수의 반올림](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-rounding-of-three-actual-numbers) · 연습 · Easy
+- [x] [정수 세 개 입력받아 출력](https://www.codetree.ai/ko/trails/complete/curated-cards/test-take-three-integers-and-output) · 테스트 · Easy
 
 ### L5. 문자, 문자열 입력
 
-- [ ] 레슨 완료
+- [x] 레슨 완료
 
-- [ ] [문자 받아 출력](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-enter-char-and-print) · 기본 · Easy
-- [ ] [문자열 받아 출력](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-enter-word-and-print) · 기본 · Easy
-- [ ] [실수와 문자 받아 출력하기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-print-number--and-letter) · 연습 · Easy
-- [ ] [문자열 순서 바꾸기](https://www.codetree.ai/ko/trails/complete/curated-cards/test-change-order-of-strings) · 테스트 · Easy
+- [x] [문자 받아 출력](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-enter-char-and-print) · 기본 · Easy
+- [x] [문자열 받아 출력](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-enter-word-and-print) · 기본 · Easy
+- [x] [실수와 문자 받아 출력하기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-print-number--and-letter) · 연습 · Easy
+- [x] [문자열 순서 바꾸기](https://www.codetree.ai/ko/trails/complete/curated-cards/test-change-order-of-strings) · 테스트 · Easy
 
 ### L6. 특정 문자를 사이에 두고 입력
 
