@@ -16,17 +16,21 @@
 > Java Trail 1 수치는 [체크리스트](codetree/java/meta/Java_Trail1_체크리스트.md)와 동일합니다.  
 > Python Trail 2는 저장소 기준(풀이 폴더·개념 노트)으로 추정했습니다.
 
-**Python · Trail 1** `████████████████████` **완료** (100%)  
+### Python
+
+**Trail 1** `████████████████████` **완료** (100%)  
 개념 노트 9/9 · 풀이 298문제
 
 <progress value="100" max="100"></progress>
 
-**Python · Trail 2** `██████░░░░░░░░░░░░░░` **진행 중** (~30%)  
+**Trail 2** `██████░░░░░░░░░░░░░░` **진행 중** (~30%)  
 풀이 53문제 · 개념 노트 Ch1·Ch3·Ch5 (전체 10챕터 중)
 
 <progress value="30" max="100"></progress>
 
-**Java · Trail 1** `███████░░░░░░░░░░░░░` **53/147** (36%)  
+### Java
+
+**Trail 1** `███████░░░░░░░░░░░░░` **53/147** (36%)  
 [체크리스트](codetree/java/meta/Java_Trail1_체크리스트.md) 기준 · Ch1 완료 · Ch2 진행
 
 <progress value="53" max="147"></progress>
