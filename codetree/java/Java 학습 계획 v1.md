@@ -219,7 +219,7 @@ Trail 1 → 해당 Chapter → Lesson.
 언어 설정: **Java**.
 
 이미 있는 노트:
-- `trail1/ch1_출력.md`, `ch2_입출력.md`, `ch5_단순반복문.md`, `ch7_1차원배열.md`, `ch9_문자열.md`
+- `trail1_notes/ch1_출력.md`, `trail1_notes/ch2_입출력.md`, `trail1_notes/ch5_단순반복문.md`, `trail1_notes/ch7_1차원배열.md`, `trail1_notes/ch9_문자열.md`
 
 없는 챕터(Ch3·4·6·8)는 필요할 때만 같은 폴더에 `chN_이름.md`를 **짧게** 만든다.
 

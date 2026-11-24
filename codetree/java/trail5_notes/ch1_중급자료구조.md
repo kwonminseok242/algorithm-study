@@ -101,7 +101,7 @@ public class Main {
 
 ### 주의할 점
 - 단어 개수 세기에 바로 응용 가능: `m.put(word, m.getOrDefault(word, 0) + 1);`
-  (단어는 `sc.next()`로 받으면 된다 → [Trail1 Ch2. 입출력](../trail1/ch2_입출력.md))
+  (단어는 `sc.next()`로 받으면 된다 → [Trail1 Ch2. 입출력](../trail1_notes/ch2_입출력.md))
 
 ---
 
@@ -161,7 +161,7 @@ print(string_to_index[input()])
 ### 주의할 점
 - ⚠️ 배열 index는 0부터지만 문제는 "몇 번째"(1부터) → `put(arr[i], i + 1)`.
 - 이 방법은 문자열이 **서로 다를 때**만 성립한다. 같은 문자열이 또 나오면 `put()`이 덮어써서 **마지막 위치**가 남는다.
-- `public static final int MAX_N`, `public static String[] arr` 처럼 `main` **밖**에 선언하는 이유와 배열 선언법 → [Trail1 Ch7. 1차원 배열](../trail1/ch7_1차원배열.md)
+- `public static final int MAX_N`, `public static String[] arr` 처럼 `main` **밖**에 선언하는 이유와 배열 선언법 → [Trail1 Ch7. 1차원 배열](../trail1_notes/ch7_1차원배열.md)
 
 ---
 
@@ -169,10 +169,10 @@ print(string_to_index[input()])
 
 ### 핵심 요약
 - `map.values()`: 맵의 **값(value)들만** 꺼낸다. 파이썬 `d.values()`와 같다.
-- HashMap은 index가 없어서 `map.values()[0]`은 안 된다 → **향상된 for문**으로 돈다. ([for-each 정리](../trail1/ch5_단순반복문.md))
+- HashMap은 index가 없어서 `map.values()[0]`은 안 된다 → **향상된 for문**으로 돈다. ([for-each 정리](../trail1_notes/ch5_단순반복문.md))
 - `<String, Integer>`의 값이 `Integer`라도 `int cnt`로 받으면 **자동 언박싱**(`Integer` → `int`)된다.
   맵에 실제로 들어있는 값이라 `null` 걱정은 없다.
-- `Math.max(a, b)`: 둘 중 큰 값. 파이썬 `max(a, b)`. ([Math.max 정리](../trail1/ch7_1차원배열.md#3-mathmax--mathmin--둘-중-큰작은-값))
+- `Math.max(a, b)`: 둘 중 큰 값. 파이썬 `max(a, b)`. ([Math.max 정리](../trail1_notes/ch7_1차원배열.md#3-mathmax--mathmin--둘-중-큰작은-값))
 
 ### 예시 코드
 
@@ -240,7 +240,7 @@ for cnt in d.values():
 | [hashmap 기본](../../trail5/hashmap%20기본) | `put` / `remove` / `containsKey`로 명령 처리 |
 | [가장 많은 데이터](../../trail5/가장%20많은%20데이터) | 개수 세기 (`getOrDefault + 1`) + 최댓값 (`Math.max`) — 4번 |
 | 문자열 → 위치 | 역방향 HashMap — 3번 |
-| [대응되는 수와 문자](../../trail5/대응되는%20수와%20문자) | 배열(번호 → 문자열) + HashMap(문자열 → 번호) **양방향** — [문자 판별](../trail1/ch9_문자열.md) |
+| [대응되는 수와 문자](../../trail5/대응되는%20수와%20문자) | 배열(번호 → 문자열) + HashMap(문자열 → 번호) **양방향** — [문자 판별](../trail1_notes/ch9_문자열.md) |
 
 ---
 
