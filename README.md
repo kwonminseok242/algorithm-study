@@ -13,8 +13,8 @@
 
 ## 진행률
 
-> 분모는 코드트리 공식 문제 수(Trail1 **395** · Trail2 **241**, [안내](https://www.codetree.ai/ko/trail-info)).  
-> Trail 2 분자 = 이 저장소 풀이 수 · Java = [체크리스트](codetree/java/meta/Java_Trail1_체크리스트.md).
+> Python 분모는 코드트리 공식 문제 수(Trail1 **395** · Trail2 **241**, [안내](https://www.codetree.ai/ko/trail-info)).  
+> Trail 2 분자 = 이 저장소 풀이 수 · Java = [체크리스트](codetree/java/meta/Java_Trail1_체크리스트.md)(**396**문제).
 
 ### Python
 
@@ -30,17 +30,17 @@ novice Mid · 저장소 풀이 53문제
 
 ### Java
 
-**Trail 1** `███████░░░░░░░░░░░░░` **53/147** (36%)  
+**Trail 1** `███░░░░░░░░░░░░░░░░░` **53/396** (13%)  
 [체크리스트](codetree/java/meta/Java_Trail1_체크리스트.md) 기준 · Ch1 완료 · Ch2 진행
 
-<progress value="53" max="147"></progress>
+<progress value="53" max="396"></progress>
 
 | 트랙 | 상태 | 비고 |
 |---|---|---|
 | Python Trail 1 | 395/395 (100%) | novice Low |
 | Python Trail 2 | 53/241 (22%) | novice Mid |
 | Python Trail 3~5 | 맛보기 | 풀이 일부만 |
-| Java Trail 1 | 진행 중 | 53/147 |
+| Java Trail 1 | 53/396 (13%) | Ch1 완료 · Ch2 진행 |
 | SQL · 프로그래머스 | 병행 | `sql/`, `프로그래머스/` |
 
 ## 디렉터리
