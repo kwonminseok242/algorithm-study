@@ -15,6 +15,7 @@ codetree/
     trail1_notes/ …        챕터별 개념 노트
     trail1/ …              문제별 풀이 (.py + README)
   java/                    Java 노트·풀이
+    meta/                  학습 계획 · 오늘 할 일 · 체크인 프롬프트
     trail1_notes/ …        챕터별 개념 노트
     trail1/ …              문제별 풀이 (.java + README)
 프로그래머스/               프로그래머스 문제 풀이
@@ -35,7 +36,7 @@ assets/                    README 이미지
 
 ### 코드트리 · Java
 
-- 노트·계획: [codetree/java](codetree/java)
+- 노트·풀이: [codetree/java](codetree/java) · 운영 문서: [meta](codetree/java/meta)
 - Trail 1 개념: [trail1_notes](codetree/java/trail1_notes) · 풀이: [trail1](codetree/java/trail1)
 
 ## 진행 현황

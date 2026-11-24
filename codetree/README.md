@@ -5,7 +5,7 @@
 ```text
 codetree/
   python/     Python 개념 노트 · 문제 풀이
-  java/       Java 개념 노트 · 문제 풀이 · 학습 계획
+  java/       Java 개념 노트 · 문제 풀이 · meta/(학습 계획)
 ```
 
 ## Python
