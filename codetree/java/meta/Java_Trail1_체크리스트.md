@@ -7,15 +7,15 @@
 
 ## 진행률
 
-**전체** `███░░░░░░░░░░░░░░░░░` **53/396** (13%)
+**전체** `███░░░░░░░░░░░░░░░░░` **68/396** (17%)
 
-
+<progress value="68" max="396"></progress>
 
 | Chapter | 진행 | 바 |
 |---|---:|:---|
 | Ch1. 출력 | 33/33 (100%) | `██████████` |
-| Ch2. 입출력 | 20/25 (80%) | `████████░░` |
-| Ch3. 연산자 | 0/13 (0%) | `░░░░░░░░░░` |
+| Ch2. 입출력 | 25/25 (100%) | `██████████` |
+| Ch3. 연산자 | 10/13 (77%) | `████████░░` |
 | Ch4. 조건문 | 0/47 (0%) | `░░░░░░░░░░` |
 | Ch5. 단순 반복문 | 0/83 (0%) | `░░░░░░░░░░` |
 | Ch6. 다중 반복문 | 0/61 (0%) | `░░░░░░░░░░` |
@@ -27,7 +27,7 @@
 
 ## Ch1. 출력
 
-- [ ] Ch1 완료
+- [x] Ch1 완료
 
 ### L1. 기본 출력
 
@@ -88,7 +88,7 @@
 
 ## Ch2. 입출력
 
-- [ ] Ch2 완료
+- [x] Ch2 완료
 
 ### L1. 정수 입력
 
@@ -127,28 +127,26 @@
 
 ### L6. 특정 문자를 사이에 두고 입력
 
-- [ ] [1시간 뒤 시간 출력](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-print-one-hour-later) · 기본 · 쉬움
-- [ ] [날짜 변경하여 출력 2](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-print-date-with-different-format-2) · 기본 · 쉬움
-- [ ] [입력받아 출력 2](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-input-and-output-2) · 연습 · 쉬움
-- [ ] [날짜 변경하여 출력](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-print-date-with-different-format) · 연습 · 쉬움
-- [ ] [전화번호 바꾸기](https://www.codetree.ai/ko/trails/complete/curated-cards/test-change-phone-number) · 테스트 · 쉬움
+- [x] [1시간 뒤 시간 출력](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-print-one-hour-later) · 기본 · 쉬움
+- [x] [날짜 변경하여 출력 2](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-print-date-with-different-format-2) · 기본 · 쉬움
+- [x] [입력받아 출력 2](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-input-and-output-2) · 연습 · 쉬움
+- [x] [날짜 변경하여 출력](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-print-date-with-different-format) · 연습 · 쉬움
+- [x] [전화번호 바꾸기](https://www.codetree.ai/ko/trails/complete/curated-cards/test-change-phone-number) · 테스트 · 쉬움
 
 ## Ch3. 연산자
 
-- [ ] Ch3 완료
-
 ### L1. 사칙연산
 
-- [ ] [간단한 사칙연산](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-simple-arithmetic-operation) · 기본 · 쉬움
-- [ ] [길이 변형 후 사각형 넓이 구하기](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-square-width-after-length-change) · 기본 · 쉬움
-- [ ] [두수의 곱과 몫](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-multiple-and-quotient-of-two-numbers) · 연습 · 쉬움
-- [ ] [몫과 나머지](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-quotient-remainder) · 연습 · 쉬움
-- [ ] [입력받아 연산하기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-take-input-and-operate) · 연습 · 쉬움
-- [ ] [2개의 정수를 서로 더하기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-add-two-integers-each-other) · 연습 · 쉬움
-- [ ] [출력결과 24](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-reading-k201622) · 연습 · 쉬움
-- [ ] [출력결과 25](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-reading-k201626) · 연습 · 쉬움
-- [ ] [출력결과 62](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-reading-k201815) · 연습 · 쉬움
-- [ ] [합과 차의 나눗셈](https://www.codetree.ai/ko/trails/complete/curated-cards/test-divide-of-sum-and-sub) · 테스트 · 쉬움
+- [x] [간단한 사칙연산](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-simple-arithmetic-operation) · 기본 · 쉬움
+- [x] [길이 변형 후 사각형 넓이 구하기](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-square-width-after-length-change) · 기본 · 쉬움
+- [x] [두수의 곱과 몫](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-multiple-and-quotient-of-two-numbers) · 연습 · 쉬움
+- [x] [몫과 나머지](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-quotient-remainder) · 연습 · 쉬움
+- [x] [입력받아 연산하기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-take-input-and-operate) · 연습 · 쉬움
+- [x] [2개의 정수를 서로 더하기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-add-two-integers-each-other) · 연습 · 쉬움
+- [x] [출력결과 24](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-reading-k201622) · 연습 · 쉬움
+- [x] [출력결과 25](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-reading-k201626) · 연습 · 쉬움
+- [x] [출력결과 62](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-reading-k201815) · 연습 · 쉬움
+- [x] [합과 차의 나눗셈](https://www.codetree.ai/ko/trails/complete/curated-cards/test-divide-of-sum-and-sub) · 테스트 · 쉬움
 
 ### L2. 합과 평균
 
@@ -157,8 +155,6 @@
 - [ ] [합과 평균의 차](https://www.codetree.ai/ko/trails/complete/curated-cards/test-sub-of-average-and-sum) · 테스트 · 쉬움
 
 ## Ch4. 조건문
-
-- [ ] Ch4 완료
 
 ### L1. if 조건문
 
@@ -244,8 +240,6 @@
 - [ ] [중앙값 구하기](https://www.codetree.ai/ko/trails/complete/curated-cards/test-find-the-median) · 테스트 · 쉬움
 
 ## Ch5. 단순 반복문
-
-- [ ] Ch5 완료
 
 ### L1. for문 a → b 1씩 증가
 
@@ -385,8 +379,6 @@
 - [ ] [모두 3의 배수](https://www.codetree.ai/ko/trails/complete/curated-cards/test-all-multiples-of-3) · 테스트 · 쉬움
 
 ## Ch6. 다중 반복문
-
-- [ ] Ch6 완료
 
 ### L1. 사각형 별 출력
 
