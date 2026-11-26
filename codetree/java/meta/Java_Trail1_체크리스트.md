@@ -7,15 +7,15 @@
 
 ## 진행률
 
-**전체** `███░░░░░░░░░░░░░░░░░` **68/396** (17%)
+**전체** `████░░░░░░░░░░░░░░░░` **71/396** (18%)
 
-<progress value="68" max="396"></progress>
+<progress value="71" max="396"></progress>
 
 | Chapter | 진행 | 바 |
 |---|---:|:---|
 | Ch1. 출력 | 33/33 (100%) | `██████████` |
 | Ch2. 입출력 | 25/25 (100%) | `██████████` |
-| Ch3. 연산자 | 10/13 (77%) | `████████░░` |
+| Ch3. 연산자 | 13/13 (100%) | `██████████` |
 | Ch4. 조건문 | 0/47 (0%) | `░░░░░░░░░░` |
 | Ch5. 단순 반복문 | 0/83 (0%) | `░░░░░░░░░░` |
 | Ch6. 다중 반복문 | 0/61 (0%) | `░░░░░░░░░░` |
@@ -86,6 +86,8 @@
 - [x] [변수 값 복사하기 2](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-copying-variable-values-2) · 연습 · 쉬움
 - [x] [합을 복사하기](https://www.codetree.ai/ko/trails/complete/curated-cards/test-copy-the-sum) · 테스트 · 쉬움
 
+---
+
 ## Ch2. 입출력
 
 - [x] Ch2 완료
@@ -133,6 +135,8 @@
 - [x] [날짜 변경하여 출력](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-print-date-with-different-format) · 연습 · 쉬움
 - [x] [전화번호 바꾸기](https://www.codetree.ai/ko/trails/complete/curated-cards/test-change-phone-number) · 테스트 · 쉬움
 
+---
+
 ## Ch3. 연산자
 
 ### L1. 사칙연산
@@ -150,9 +154,11 @@
 
 ### L2. 합과 평균
 
-- [ ] [합과 평균](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-sum-and-avg) · 기본 · 쉬움
-- [ ] [세 수의 합과 평균 구하기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-sum-and-mean-of-three-numbers) · 연습 · 쉬움
-- [ ] [합과 평균의 차](https://www.codetree.ai/ko/trails/complete/curated-cards/test-sub-of-average-and-sum) · 테스트 · 쉬움
+- [x] [합과 평균](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-sum-and-avg) · 기본 · 쉬움
+- [x] [세 수의 합과 평균 구하기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-sum-and-mean-of-three-numbers) · 연습 · 쉬움
+- [x] [합과 평균의 차](https://www.codetree.ai/ko/trails/complete/curated-cards/test-sub-of-average-and-sum) · 테스트 · 쉬움
+
+---
 
 ## Ch4. 조건문
 
@@ -238,6 +244,8 @@
 - [ ] [최댓값 구하기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-maximum-value) · 연습 · 어려움
 - [ ] [코로나 매뉴얼](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-covid-manual) · 연습 · 어려움
 - [ ] [중앙값 구하기](https://www.codetree.ai/ko/trails/complete/curated-cards/test-find-the-median) · 테스트 · 쉬움
+
+---
 
 ## Ch5. 단순 반복문
 
@@ -378,6 +386,8 @@
 - [ ] [소수 판별기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-prime-number-discriminator) · 연습 · 쉬움
 - [ ] [모두 3의 배수](https://www.codetree.ai/ko/trails/complete/curated-cards/test-all-multiples-of-3) · 테스트 · 쉬움
 
+---
+
 ## Ch6. 다중 반복문
 
 ### L1. 사각형 별 출력
@@ -489,6 +499,8 @@
 - [ ] [소수 구하기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-get-prime) · 연습 · 쉬움
 - [ ] [짝수의 합 n번 구하기](https://www.codetree.ai/ko/trails/complete/curated-cards/test-find-the-sum-of-even-numbers-n-times) · 테스트 · 쉬움
 
+---
+
 ## Ch7. 1차원 배열
 
 - [ ] Ch7 완료
@@ -561,6 +573,8 @@
 - [ ] [자동차 단일 거래 이익 최대화하기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-max-profit-of-single-car) · 연습 · 쉬움
 - [ ] [두 수의 차의 최솟값](https://www.codetree.ai/ko/trails/complete/curated-cards/test-minimum-difference-between-two-numbers) · 테스트 · 쉬움
 
+---
+
 ## Ch8. 2차원 배열
 
 - [ ] Ch8 완료
@@ -598,6 +612,8 @@
 - [ ] [동전이 있는 위치](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-Where-coins-are-located) · 기본 · 쉬움
 - [ ] [격자에 점 그리기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-draw-points-on-grid) · 연습 · 쉬움
 - [ ] [격자 모양 출력하기](https://www.codetree.ai/ko/trails/complete/curated-cards/test-print-grid-shape) · 테스트 · 쉬움
+
+---
 
 ## Ch9. 문자열
 
