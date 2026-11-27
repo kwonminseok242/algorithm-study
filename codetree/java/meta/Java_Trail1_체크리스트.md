@@ -7,16 +7,16 @@
 
 ## 진행률
 
-**전체** `████░░░░░░░░░░░░░░░░` **71/396** (18%)
+**전체** `████░░░░░░░░░░░░░░░░` **75/396** (19%)
 
-<progress value="71" max="396"></progress>
+<progress value="75" max="396"></progress>
 
 | Chapter | 진행 | 바 |
 |---|---:|:---|
 | Ch1. 출력 | 33/33 (100%) | `██████████` |
 | Ch2. 입출력 | 25/25 (100%) | `██████████` |
 | Ch3. 연산자 | 13/13 (100%) | `██████████` |
-| Ch4. 조건문 | 0/47 (0%) | `░░░░░░░░░░` |
+| Ch4. 조건문 | 4/47 (9%) | `█░░░░░░░░░` |
 | Ch5. 단순 반복문 | 0/83 (0%) | `░░░░░░░░░░` |
 | Ch6. 다중 반복문 | 0/61 (0%) | `░░░░░░░░░░` |
 | Ch7. 1차원 배열 | 0/50 (0%) | `░░░░░░░░░░` |
@@ -164,10 +164,10 @@
 
 ### L1. if 조건문
 
-- [ ] [음수 구별하기](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-separate-negative-number) · 기본 · 쉬움
-- [ ] [큰 수에서 빼기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-subtract-from-large-number) · 연습 · 쉬움
-- [ ] [체질량지수](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-bmi) · 연습 · 보통
-- [ ] [정사각형의 넓이](https://www.codetree.ai/ko/trails/complete/curated-cards/test-area-of-a-rectangle) · 테스트 · 쉬움
+- [x] [음수 구별하기](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-separate-negative-number) · 기본 · 쉬움
+- [x] [큰 수에서 빼기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-subtract-from-large-number) · 연습 · 쉬움
+- [x] [체질량지수](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-bmi) · 연습 · 보통
+- [x] [정사각형의 넓이](https://www.codetree.ai/ko/trails/complete/curated-cards/test-area-of-a-rectangle) · 테스트 · 쉬움
 
 ### L2. if else 조건문
 

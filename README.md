@@ -30,17 +30,17 @@ novice Mid · 저장소 풀이 53문제
 
 ### Java
 
-**Trail 1** `████░░░░░░░░░░░░░░░░` **71/396** (18%)  
+**Trail 1** `████░░░░░░░░░░░░░░░░` **75/396** (19%)  
 [체크리스트](codetree/java/meta/Java_Trail1_체크리스트.md) 기준 · Ch1~Ch3 완료 · Ch4 진행
 
-<progress value="71" max="396"></progress>
+<progress value="75" max="396"></progress>
 
 | 트랙 | 상태 | 비고 |
 |---|---|---|
 | Python Trail 1 | 395/395 (100%) | novice Low |
 | Python Trail 2 | 53/241 (22%) | novice Mid |
 | Python Trail 3~5 | 맛보기 | 풀이 일부만 |
-| Java Trail 1 | 71/396 (18%) | Ch1~Ch3 완료 · Ch4 진행 |
+| Java Trail 1 | 75/396 (19%) | Ch1~Ch3 완료 · Ch4 진행 |
 | SQL · 프로그래머스 | 병행 | `sql/`, `프로그래머스/` |
 
 ## 디렉터리
